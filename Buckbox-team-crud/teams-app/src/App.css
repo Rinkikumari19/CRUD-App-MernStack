@@ -1,0 +1,131 @@
+.main-div {
+  margin: 10px;
+}
+
+.head-div {
+  display: flex;
+  justify-content: space-between;
+}
+.search-input {
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid forestgreen;
+  margin-right: 5px;
+}
+.add-btn {
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  height: 40px;
+  margin: 0px;
+
+}
+.team-input {
+  border-radius: 5px;
+  padding: 6px 5px;
+  float: right;
+  border: 1px solid forestgreen;
+}
+.input-div {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.select-width {
+  width: 180px;
+}
+label {
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+td img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid forestgreen;
+}
+button {
+  background-color: forestgreen;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+button:disabled {
+  background-color: #bbbdbb;
+  cursor: auto;
+  color: black;
+}
+.sub-btn {
+  text-align: center;
+}
+.sub-btn button {
+  width: 130px;
+  height: 35px;
+  margin: 15px 0px;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid forestgreen;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.close-icon {
+  margin-top: 16px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.error-msg {
+  color: #dd0707;
+  font-size: 13px;
+  text-align: end;
+  position: relative;
+  bottom: 5px;
+}
+.error-msg-img {
+  color: #dd0707;
+  font-size: 13px;
+  text-align: end;
+}
+.sort-select {
+  border-radius: 10px;
+  border: 2px solid forestgreen;
+  position: relative;
+  top: 20px;
+  margin-right: 5px;
+  height: 40px;
+}
+li button.Mui-selected {
+  background-color: forestgreen !important;
+}
+
+/* .sort-select option {
+  padding: 10px;
+  border: 1px solid forestgreen;
+} */
